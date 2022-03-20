@@ -4,12 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="python, 非の博客">
-    <meta name="description" content="# Python 语法
-python 注释：
-123456789#代码&amp;#x27;&amp;#x27;&amp;#x27;代码&amp;#x27;&amp;#x27;&amp;#x27;&amp;quot;&amp;quot;&amp;quot;代码&amp;quot;&amp;quot;&amp;quot;
-assert：
-">
+    <meta name="keywords" content="非の博客">
+    <meta name="description" content="流密码​    流加密，是对称加密算法的一种，加密和解密双方使用相同伪随机加密数据流作为密钥，明文数据每次与密钥数据流顺次对应加密，得到密文数据流。实践中数据通常是一个位（bit）并用异或（xor）操作加密。
+​    加密后的A用EA表示">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -21,7 +18,7 @@ assert：
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>python | 非の博客</title>
+    <title>非の博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -313,12 +310,12 @@ assert：
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">python</h1>
+                    <h1 class="description center-align post-title"></h1>
                 </div>
             </div>
         </div>
@@ -446,7 +443,7 @@ assert：
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-01-24
+                    2022-03-20
                 </div>
                 
 
@@ -467,22 +464,30 @@ assert：
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="python语法"><a class="markdownIt-Anchor" href="#python语法">#</a> Python 语法</h1>
-<p><strong>python 注释：</strong></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#代码</span></span><br><span class="line"></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">代码</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">代码</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br></pre></td></tr></table></figure>
-<p><strong>assert：</strong></p>
-<p>检查条件，不符合就终止程序。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a=-<span class="number">1</span></span><br><span class="line"><span class="keyword">assert</span> a&gt;<span class="number">0</span>,<span class="string">&quot;a超出范围&quot;</span>  <span class="comment">#报错不再执行</span></span><br><span class="line"><span class="keyword">assert</span> a&lt;<span class="number">0</span> <span class="comment">#正常运行</span></span><br></pre></td></tr></table></figure>
-<p>assert:&quot;断言&quot; 用于判断一个表达式，在表达式条件为 false 的时候触发异常。</p>
-<p>​	断言可以在条件不满足程序运行的情况下直接返回错误，而不必等待程序运行后出现崩溃的情况，例如我们的代码只能在 Linux 系统下运行，可以先判断当前系统是否符合条件。</p>
-<p><strong>zip:</strong></p>
-<p>参数为可迭代的对象，并且可以有多个参数。该函数返回一个以元组为元素的列表，其中第 i 个元组包含每个参数序列的第 i 个元素。返回的列表长度被截断为最短的参数序列的长度。只有一个序列参数时，它返回一个 1 元组的列表。没有参数时，它返回一个空的列表。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line">a=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>]</span><br><span class="line">b=(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>)</span><br><span class="line">c=np.arange(<span class="number">5</span>)</span><br><span class="line">d=<span class="string">&quot;zhang&quot;</span></span><br><span class="line">zz=<span class="built_in">zip</span>(a,b,c,d)</span><br><span class="line"><span class="built_in">print</span>(zz)</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出：</span></span><br><span class="line"><span class="comment">#[(1, 1, 0, &#x27;z&#x27;), (2, 2, 1, &#x27;h&#x27;), (3, 3, 2, &#x27;a&#x27;), (4, 4, 3, &#x27;n&#x27;), (5, 5, 4, &#x27;g&#x27;)]</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line">zz=<span class="built_in">zip</span>()</span><br><span class="line"><span class="built_in">print</span>(zz)</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出：[]</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line">a=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line">zz=<span class="built_in">zip</span>(a)</span><br><span class="line"><span class="built_in">print</span>(zz)</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出：[(1,), (2,), (3,)]</span></span><br></pre></td></tr></table></figure>
-<p>当几个参数的长度不同时</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line">a=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line">b=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>]</span><br><span class="line">c=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>]</span><br><span class="line">zz=<span class="built_in">zip</span>(a,b,c)</span><br><span class="line"><span class="built_in">print</span>(zz)</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出：[(1, 1, 1), (2, 2, 2), (3, 3, 3)]</span></span><br></pre></td></tr></table></figure>
-<p>zip 同 * 一起用</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line">a=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line">b=[<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]</span><br><span class="line">c=[<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>]</span><br><span class="line">zz=<span class="built_in">zip</span>(a,b,c)</span><br><span class="line"><span class="built_in">print</span>(zz)</span><br><span class="line"></span><br><span class="line">x,y,z=<span class="built_in">zip</span>(*zz)</span><br><span class="line"><span class="built_in">print</span>(x)</span><br><span class="line"><span class="built_in">print</span>(y)</span><br><span class="line"><span class="built_in">print</span>(z)</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出：</span></span><br><span class="line"><span class="comment">#[(1, 4, 7), (2, 5, 8), (3, 6, 9)]</span></span><br><span class="line"><span class="comment">#(1, 2, 3)</span></span><br><span class="line"><span class="comment">#(4, 5, 6)</span></span><br><span class="line"><span class="comment">#(7, 8, 9)</span></span><br></pre></td></tr></table></figure>
+                <h1 id="流密码"><a href="#流密码" class="headerlink" title="流密码"></a>流密码</h1><p>​    流加密，是对称加密算法的一种，加密和解密双方使用相同伪随机加密数据流作为密钥，明文数据每次与密钥数据流顺次对应加密，得到密文数据流。实践中数据通常是一个位（bit）并用异或（xor）操作加密。</p>
+<p>​    加密后的A用EA表示（EA = A ⊕ C），加密后的数据B用EB表示（EB = B ⊕ C），符号⊕表示异或操作。</p>
+<p>利用相同的值异或结果为0可以得出：</p>
+<p>​    <strong>EA ⊕ EB = （A ⊕ C）⊕ （B ⊕ C）= A ⊕ B ⊕ （C ⊕ C）= A ⊕ B</strong></p>
+<p>​    所以等式两边同时异或B即可发现：</p>
+<p>​    EA ⊕ EB ⊕ B = A ⊕ B ⊕ B = A 即：<strong>A = EA ⊕ EB ⊕ B</strong></p>
+<h3 id="RC4加密过程"><a href="#RC4加密过程" class="headerlink" title="RC4加密过程"></a>RC4加密过程</h3><p><strong>一、初始化S表</strong></p>
+<p>​    1、对S表进行线性填充，一般为256个字节；</p>
+<p>​    2、用种子密钥填充另一个256字节的K表；</p>
+<p>​    3、用K表对S表进行初始置换。</p>
+<p><strong>二、密钥流的生成</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">i,j=0;</span><br><span class="line">for r=0 to len do</span><br><span class="line">	i = (i+1) mod 256;</span><br><span class="line">	j = (j+S[i]) mod 256;</span><br><span class="line">	swap(S[i],S[j]);</span><br><span class="line">	t = (S[i]+S[j])mod256;</span><br><span class="line">	k[r] = S[t];</span><br><span class="line">	</span><br></pre></td></tr></table></figure>
 
+
+
+<p><em><strong>题目</strong></em></p>
+<p>key ： welcometoicqedu<br>密文 ： UUyFTj8PCzF6geFn6xgBOYSvVTrbpNU4OF9db9wMcPD1yDbaJw==</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> random, base64</span><br><span class="line"><span class="keyword">from</span> hashlib <span class="keyword">import</span> sha1</span><br><span class="line"></span><br><span class="line"><span class="comment"># rc4加解密方法</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">crypt</span>(<span class="params">data, key</span>):</span></span><br><span class="line">   x = <span class="number">0</span></span><br><span class="line">   box = <span class="built_in">range</span>(<span class="number">256</span>)</span><br><span class="line">   <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">256</span>):</span><br><span class="line">       x = (x + box[i] + <span class="built_in">ord</span>(key[i % <span class="built_in">len</span>(key)])) % <span class="number">256</span></span><br><span class="line">       box[i], box[x] = box[x], box[i]</span><br><span class="line">   x = y = <span class="number">0</span></span><br><span class="line">   out = []</span><br><span class="line">   <span class="keyword">for</span> char <span class="keyword">in</span> data:</span><br><span class="line">       x = (x + <span class="number">1</span>) % <span class="number">256</span></span><br><span class="line">       y = (y + box[x]) % <span class="number">256</span></span><br><span class="line">       box[x], box[y] = box[y], box[x]</span><br><span class="line">       out.append(<span class="built_in">chr</span>(<span class="built_in">ord</span>(char) ^ box[(box[x] + box[y]) % <span class="number">256</span>]))</span><br><span class="line">   <span class="keyword">return</span> <span class="string">&#x27;&#x27;</span>.join(out)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">tdecode</span>(<span class="params">data, key, decode=base64.b64decode, salt_length=<span class="number">16</span></span>):</span></span><br><span class="line">   <span class="keyword">if</span> decode:</span><br><span class="line">       data = decode(data)</span><br><span class="line">   salt = data[:salt_length]</span><br><span class="line">   <span class="comment"># 可以看到解密的算法的key是：题目给出的key值和data使用base64解码后的前16字符做sha1。</span></span><br><span class="line">   <span class="keyword">return</span> crypt(data[salt_length:], sha1(key + salt).digest())</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ ==<span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">   data = <span class="string">&#x27;UUyFTj8PCzF6geFn6xgBOYSvVTrbpNU4OF9db9wMcPD1yDbaJw ==&#x27;</span></span><br><span class="line">   key = <span class="string">&#x27;welcometoicqedu&#x27;</span></span><br><span class="line">   decoded_data = tdecode(data=data, key=key)</span><br><span class="line">   <span class="built_in">print</span> decoded_data</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h3 id="伪随机数"><a href="#伪随机数" class="headerlink" title="伪随机数"></a>伪随机数</h3>
                 
             </div>
             <hr/>
@@ -508,7 +513,7 @@ assert：
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2022/01/24/python/">http://example.com/2022/01/24/python/</a>
+                    <a href="http://example.com/2022/03/20/%E6%B5%81%E5%AF%86%E7%A0%81/">http://example.com/2022/03/20/%E6%B5%81%E5%AF%86%E7%A0%81/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -717,9 +722,10 @@ assert：
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2022/03/20/%E6%B5%81%E5%AF%86%E7%A0%81/">
                     <div class="card-image">
@@ -737,9 +743,9 @@ assert：
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-03-20
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-20
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -748,6 +754,7 @@ assert：
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -758,13 +765,13 @@ assert：
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/01/23/RSA/">
+                <a href="/2022/01/24/python/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="RSA">
+                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="python">
                         
-                        <span class="card-title">RSA</span>
+                        <span class="card-title">python</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -775,7 +782,7 @@ assert：
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-23
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-24
                             </span>
                         <span class="publish-author">
                             
